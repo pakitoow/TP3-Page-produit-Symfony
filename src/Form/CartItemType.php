@@ -8,7 +8,7 @@ use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class CartItemType extends AbstractType  // ← CHANGÉ ICI
+class CartItemType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {

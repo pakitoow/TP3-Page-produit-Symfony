@@ -17,8 +17,6 @@ class ProductController extends AbstractController
 
         if ($form->isSubmitted() && $form->isValid()) {
             $data = $form->getData();
-            // Ici, normalement: ajout au panier, redirection, etc.
-            // return $this->redirectToRoute('app_cart_index');
         }
 
         return $this->render('product/show.html.twig', [
